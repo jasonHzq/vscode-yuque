@@ -1,5 +1,5 @@
 {
-  "name": "vscode-lark-client",
+  "name": "vscode-yuque-client",
   "version": "0.1.0",
   "scripts": {
     "start": "UV_THREADPOOL_SIZE=100 NODE_ENV=development node --max_old_space_size=8192 node_modules/webpack-dev-server/bin/webpack-dev-server.js --config config/webpack.config.js",

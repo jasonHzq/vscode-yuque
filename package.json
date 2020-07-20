@@ -1,28 +1,28 @@
 {
-  "name": "vscode-lark",
-  "displayName": "vscode-lark",
+  "name": "vscode-yuque",
+  "displayName": "vscode-yuque",
   "description": "",
   "publisher": "jasonHzq",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.47.0"
   },
-  "repository": "git@gitlab.alibaba-inc.com:zongquan.hzq/vscode-lark.git",
+  "repository": "git@gitlab.alibaba-inc.com:zongquan.hzq/vscode-yuque.git",
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCustomEditor:larkEditor.lark"
+    "onCustomEditor:yuqueEditor.yuque"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "customEditors": [
       {
-        "viewType": "larkEditor.lark",
-        "displayName": "larkque",
+        "viewType": "yuqueEditor.yuque",
+        "displayName": "yuque",
         "selector": [
           {
-            "filenamePattern": "*.lark"
+            "filenamePattern": "*.yuque"
           }
         ],
         "priority": "default"

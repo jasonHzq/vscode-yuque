@@ -1,3 +1,3 @@
-# vscode-lark
+# vscode-yuque
 
 ## 使用

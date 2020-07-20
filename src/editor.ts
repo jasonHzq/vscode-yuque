@@ -1,6 +1,6 @@
 /**
- * @author zongquan.hzq
- * @description lark editor
+ * @author jasonHzq
+ * @description Yuque editor
  */
 import * as vscode from "vscode";
 import * as path from "path";
@@ -26,7 +26,7 @@ export class LarkEditorProvider implements vscode.CustomTextEditorProvider {
 
   constructor(private readonly context: vscode.ExtensionContext) {}
 
-  private static readonly viewType = "larkEditor.lark";
+  private static readonly viewType = "yuqueEditor.yuque";
 
   resolveCustomTextEditor(
     document: vscode.TextDocument,
@@ -92,7 +92,7 @@ export class LarkEditorProvider implements vscode.CustomTextEditorProvider {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Lark</title>
+      <title>Yuque</title>
       <style>${styleCode}</style>
     </head>
     <body>

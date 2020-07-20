@@ -61,7 +61,7 @@ const Editor = () => {
   );
 
   return (
-    <div className="lark-editor">
+    <div className="yuque-editor">
       <div className="operators">
         {mode === Mode.read ? editBtn : updateBtn}
       </div>

@@ -1,18 +1,18 @@
-.lark-editor .editor-container.read {
+.yuque-editor .editor-container.read {
   background-color: white;
   padding: 50px;
 }
 
-.lark-editor .operators {
+.yuque-editor .operators {
   margin: 10px;
   height: 40px;
 }
 
-.lark-editor .editor-container {
+.yuque-editor .editor-container {
   position: relative;
 }
 
-.lark-editor .editor-loading {
+.yuque-editor .editor-loading {
   /* background-color: white; */
   width: 100%;
   min-height: 600px;
@@ -24,7 +24,7 @@
   top: 0;
 }
 
-.lark-editor .operators button {
+.yuque-editor .operators button {
   background: #25b864;
   outline: 0;
   border: 0;
