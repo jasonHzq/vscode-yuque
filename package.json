@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.47.0"
   },
-  "repository": "git@gitlab.alibaba-inc.com:zongquan.hzq/vscode-yuque.git",
+  "repository": "git@github.com:jasonHzq/vscode-yuque.git",
   "categories": [
     "Other"
   ],
