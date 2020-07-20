@@ -1,0 +1,41 @@
+.lark-editor .editor-container.read {
+  background-color: white;
+  padding: 50px;
+}
+
+.lark-editor .operators {
+  margin: 10px;
+  height: 40px;
+}
+
+.lark-editor .editor-container {
+  position: relative;
+}
+
+.lark-editor .editor-loading {
+  /* background-color: white; */
+  width: 100%;
+  min-height: 600px;
+  text-align: center;
+  margin-top: 130px;
+  color: #25b864;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+}
+
+.lark-editor .operators button {
+  background: #25b864;
+  outline: 0;
+  border: 0;
+  color: white;
+  line-height: 30px;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 12px;
+  border-radius: 3px;
+}
+
+.pull-right {
+  float: right;
+}

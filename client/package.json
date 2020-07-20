@@ -1,0 +1,20 @@
+{
+  "name": "vscode-lark-client",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "UV_THREADPOOL_SIZE=100 NODE_ENV=development node --max_old_space_size=8192 node_modules/webpack-dev-server/bin/webpack-dev-server.js --config config/webpack.config.js",
+    "build": "UV_THREADPOOL_SIZE=100 NODE_ENV=development node --max_old_space_size=8192 node_modules/.bin/webpack --config config/webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "ts-loader": "^8.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@ali/yuque": "^1.15.1",
+    "antd": "^4.4.2"
+  }
+}
