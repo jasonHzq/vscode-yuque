@@ -2,10 +2,12 @@
   "name": "vscode-lark",
   "displayName": "vscode-lark",
   "description": "",
+  "publisher": "jasonHzq",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.47.0"
   },
+  "repository": "git@gitlab.alibaba-inc.com:zongquan.hzq/vscode-lark.git",
   "categories": [
     "Other"
   ],
@@ -29,7 +31,7 @@
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
-    "compile": "tsc -p ./ && cp src/react/app.css out/react/app.css",
+    "compile": "tsc -p ./ && rm -rf client/build && cd client && UV_THREADPOOL_SIZE=100 NODE_ENV=development node node_modules/.bin/webpack --config config/webpack.config.prod.js && cd ..",
     "lint": "eslint src --ext ts",
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile && yarn run lint",
